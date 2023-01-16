@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS ONLY -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <!--NAV STARTS HERE-->
+  <nav class="navbar navbar-expand-lg">
+      <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./image/Logo.png" alt="">
+      </a>
+
+
+  <!--SMALL DEVICE MENU-->
+      <button class="togglerButton d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#smallMenu" aria-controls="offcanvasExample">
+        <i class="fa-solid fa-align-left"></i>
+      </button>
+      
+      <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="smallMenu" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./image/Logo.png" alt="" class="offCanvasLogo"></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0">
+         <ul class="small_menu">
+            <li>
+              <a href="#">Home <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Shop <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Pages <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Features <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Blogs <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Contact <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+        </ul>
+        <div class="iconPanal">
+          <ul>
+           <li>
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+           </li>
+           <li>
+               <a href="#"><i class="fa-regular fa-user"></i></a>
+           </li>
+           <li>
+               <a href="#"><i class="fa-regular fa-heart"></i></a>
+           </li>
+           <li>
+               <a href="#"><img src="./image/Group.svg" alt="">
+                   <span class="overlay">0</span>
+               </a>
+   
+               
+           </li>
+          </ul>
+   
+         </div>
+         
+        </div>
+      </div>
+      
+  <!--SMALL DEVICE MENU ENDS-->
+
+      <div class="collapse navbar-collapse" id="myCustomNav">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+          <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>-->
+         
+        </ul>
+        
+      </div>
+      <div class="iconPanal d-none d-lg-block">
+       <ul>
+        <li>
+           <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </li>
+        <li>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+        </li>
+        <li>
+            <a href="#"><img src="./image/Group.svg" alt="">
+                <span class="overlay">0</span>
+            </a>
+
+            
+        </li>
+       </ul>
+
+      </div>
+      </div>
+  </nav>
+  <!--NAV ENDS HERE-->
+  <!--MAIN STARTS HERE-->
+  <main>
+
+<section id="shop_detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="top_img_slider">
+                    <div class="img_card">
+                        <img src="./image/product_detail1.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail2.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail3.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail4.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail5.png" alt="">
+                    </div>
+                    <div class="img_card">
+                      <img src="./image/product_detail1.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail2.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail3.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail4.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail5.png" alt="">
+                  </div>
+                </div>
+                <div class="bottom_img_slider">
+                  <div class="img_card">
+                    <img src="./image/product_detail1.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail2.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail3.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail4.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail5.png" alt="">
+                </div>  
+                <div class="img_card">
+                  <img src="./image/product_detail1.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail2.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail3.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail4.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail5.png" alt="">
+              </div>  
+              </div>
+                
+            </div>
+            <div class="col-lg-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi praesentium quidem similique qui minus facilis molestiae aliquid facere, et vitae suscipit sequi nesciunt consequatur vel beatae ea voluptatem reprehenderit officiis provident commodi quod. Libero impedit perspiciatis nemo maxime architecto culpa veniam inventore repellat expedita voluptatibus possimus quasi magni enim repellendus laborum eligendi quis, nobis excepturi suscipit amet accusantium. Voluptas dolor tempore ab necessitatibus, velit aut reiciendis vitae minima consectetur eveniet ea iusto quasi cupiditate mollitia, fugiat quia! Doloremque error excepturi fugiat soluta est. Error nisi quos, labore autem voluptates fuga voluptatem adipisci voluptas dicta modi exercitationem doloremque nemo animi iusto commodi. At quae perferendis possimus reiciendis explicabo nostrum culpa voluptatibus ab quis consequuntur nam tenetur reprehenderit temporibus quia eos obcaecati similique, porro molestiae repudiandae consectetur, beatae corporis voluptas hic nobis! Nulla id adipisci ullam saepe pariatur veritatis laudantium aut illo, amet nemo quidem dignissimos veniam voluptatibus asperiores harum? Adipisci fugiat quidem, consequatur ipsam iure praesentium harum sed, repellat assumenda ex, similique voluptate libero omnis consequuntur a. Temporibus asperiores harum sed nesciunt facere inventore 
+            </div>
+        </div>
+    </div>
+</section>     
+  
+<section id="navbar">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-link active" aria-current="page" href="#">Product Description</a>
+      <a class="nav-link" href="#">Customer Review(1)</a>
+      <a class="nav-link" href="#">Additional Information</a>
+   
+    </nav>
+    <p>Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively scale team driven process improvements before premier functionalities. Holisticly cultivate intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate holistic collaboration and idea-sharing rather than granular strategic theme areas.
+    </p>
+    <p>Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+      Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base</p>
+  </div>
+</section>
+
+<section id="new_product">
+  <h1>Releted Products</h1>
+  <div class="container">
+    <div class="arrows">
+      <div class="left"><i class="fa-solid fa-arrow-left-long"></i></div>
+      <div class="right"><i class="fa-sharp fa-solid fa-arrow-right"></i></div>
+    </div>
+    <div class="product_slider">
+      <div class="col-lg-3 product_container">
+        <div class="product_card">
+          
+
+        
+        <div class="product_img">
+          <div class="labelshop">
+             New
+          </div>
+        <img src="./image/Group 31.png" alt="">
+       
+        </div>
+        <div class="product_info">
+        <ul>
+          <li><h4><a href="#">Baseball Cap</a></h4></li>
+          <li>
+            <span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </li>
+        </ul>
+          
+        
+       <p class="dollart">$125.00</p>
+        
+        </div>
+
+
+     
+      
+        </div>
+      </div>
+      <div class="col-lg-3 product_container">
+        <div class="product_card">
+          
+
+        
+        <div class="product_img">
+          <div class="labelshop">
+             New
+          </div>
+        <img src="./image/Group 32.png" alt="">
+       
+        </div>
+        <div class="product_info">
+        <ul>
+          <li><h4><a href="#">Baseball Cap</a></h4></li>
+          <li>
+            <span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </li>
+        </ul>
+          
+        
+       <p class="dollart">$125.00</p>
+        
+        </div>
+
+
+     
+      
+        </div>
+      </div>
+      <div class="col-lg-3 product_container">
+        <div class="product_card">
+          
+
+        
+        <div class="product_img">
+          <div class="labelshop">
+             New
+          </div>
+        <img src="./image/Group 33.png" alt="">
+       
+        </div>
+        <div class="product_info">
+        <ul>
+          <li><h4><a href="#">Baseball Cap</a></h4></li>
+          <li>
+            <span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </li>
+        </ul>
+          
+        
+       <p class="dollart">$125.00</p>
+        
+        </div>
+
+
+     
+      
+        </div>
+      </div>
+      <div class="col-lg-3 product_container">
+        <div class="product_card">
+          
+
+        
+        <div class="product_img">
+          <div class="labelshop">
+             New
+          </div>
+        <img src="./image/Group 34.png" alt="">
+       
+        </div>
+        <div class="product_info">
+        <ul>
+          <li><h4><a href="#">Baseball Cap</a></h4></li>
+          <li>
+            <span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </li>
+        </ul>
+          
+        
+       <p class="dollart">$125.00</p>
+        
+        </div>
+
+
+     
+      
+        </div>
+      </div>
+      <div class="col-lg-3 product_container">
+        <div class="product_card">
+          
+
+        
+        <div class="product_img">
+          <div class="labelshop">
+             New
+          </div>
+        <img src="./image/Group 33.png" alt="">
+       
+        </div>
+        <div class="product_info">
+        <ul>
+          <li><h4><a href="#">Baseball Cap</a></h4></li>
+          <li>
+            <span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </li>
+        </ul>
+          
+        
+       <p class="dollart">$125.00</p>
+        
+        </div>
+
+
+     
+      
+        </div>
+      </div>
+    
+
+
+    </div>
+  </div>
+</section>
+
+  </main> 
+  <!--MAIN ENDS HERE-->
+    <!--FOOTER SECTION STRATS HERE-->
+<footer class="aboutFooter">
+  <div class="container">
+    
+    <div class="row align-items-center">
+      <div class="newsInfo">
+        <h3>Subscribe to Our Newsletter!</h3>
+        <p>Authoritatively morph 24/7 potentialities with error-free partnerships. Objectively engineer multimedia.</p>
+      </div>
+      <div class="formInfo">
+        <form action="">
+          <input type="text" placeholder="Enter Your Email...">
+          <button class="button ">Subscribe</button>
+        </form>
+
+      </div>
+     
+      
+
+    </div>
+    <div class="border">
+
+    </div>
+    <div class="lastone">
+      <div class="container">
+        <div class="row">
+          <div class="imageicon  col-lg">
+            <img src="./image/logo2.png" alt="">
+           <p>Progressively optimize effective ideas before turnkey process improvements. Proactively disseminate</p>
+           <ul>
+            <li><span><i class="fa-brands fa-facebook"></i></span></li>
+            <li><span><i class="fa-brands fa-twitter"></i></span></li>
+            <li><span><i class="fa-brands fa-instagram"></i></span></li>
+            <li><span><i class="fa-brands fa-pinterest-p"></i></span></li>
+          </ul>
+          </div>
+          <div class="account col-lg">
+            <h4 class="heading">My Account</h4>
+
+           <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> My Account </p></a> 
+           <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> View Cart</p></a> 
+           <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Wishlist</p></a>
+           <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Compare</p></a>
+           <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> New Products</p></a>
+
+          </div>
+
+          <div class="support col-lg">
+            <h4 class="heading">Support</h4>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Help </p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Contact Us</p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Feedback</p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Customer Service</p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Store Locations</p></a>
+          </div>
+          <div class="Shop col-lg">
+            <h4 class="heading">Shop</h4>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Men’s Shopping </p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Women’s Shoppings</p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Kids’ Shopping</p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> Discounts</p></a>
+            <a href="#"><p><span><i class="fa-solid fa-greater-than"></i></span> New Arrivels</p></a>
+          </div>
+          <div class="contact col-lg">
+
+            <h4 class="heading">Contact</h4>
+            <div class="row">
+              <div class="icon col-lg-2">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="text col-lg-10">
+                830 Broadway, New York, NY 10003,
+                United States
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="icon col-lg-2">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="text col-lg-10">
+                +18008660286
+              </div>
+            </div>
+            <div class="row">
+              <div class="icon col-lg-2">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="text col-lg-10">
+                aetor.info@gmail.com
+                info@aetor.com
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  </div>
+</footer>
+   <!--FOOTER SECTION ENDS HERE-->
+
+   <section id="last_itemtwo">
+    <div class="container">
+      <div class="row">
+        <div class="lastdiv">
+          <p>© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft</span>.</p>
+        </div>
+        <div class="card">
+          <img src="./image/25654-2-major-credit-card-logo-transparent-thumb 1.png" alt="">
+        </div>
+      </div>
+       
+  
+            
+     </div>
+  </section>
+  
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jquery.countdown.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/venobox.min.js"></script>
+  <script src="./js/app.js"></script>  
+  </body>
+  </html>  
